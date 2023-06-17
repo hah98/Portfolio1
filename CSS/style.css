@@ -10,7 +10,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 100vh;
-
+  overflow-x: hidden;
 }
 
 h1 {
@@ -178,13 +178,13 @@ h3,h4 {
   }
   
   body {
+    overflow-x: hidden;
     font-family: "Roboto", sans-serif;
-  
     background-image: url(../Images/port-background.png);
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 100vh;
-    max-width: 100vw;
+   
   }
 
   h1 {
@@ -256,7 +256,7 @@ nav ul li a:hover {
 margin-top: -140px;
 margin-left: 200px;
  margin-bottom: 30px;
-flex: 0 0 45%;
+flex: 0 0 35%;
  
 }
 
@@ -347,7 +347,7 @@ button:hover {
 
  #about-me {
   height: 450px;
-  max-width: 100vw;
+ 
 } 
 
 
@@ -387,13 +387,13 @@ h3,h4 {
   }
   
   body {
+    overflow-x: hidden;
     font-family: "Roboto", sans-serif;
-  
     background-image: url(../Images/port-background.png);
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 100vh;
-    max-width: 100vw;
+   
   }
 
   h1 {
@@ -556,7 +556,7 @@ button:hover {
 
  #about-me {
   height: 450px;
-  max-width: 100vw;
+
 } 
 
 
@@ -592,13 +592,13 @@ h3,h4 {
   }
   
   body {
+    overflow-x: hidden;
     font-family: "Roboto", sans-serif;
-  
     background-image: url(../Images/port-background.png);
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 100vh;
-    max-width: 100vw;
+
   }
 
   h1 {
@@ -611,9 +611,9 @@ h3,h4 {
 
   /* Navbar  */
 header {
-  display: block;
+  
   margin: 0;
-  height: 120px;
+  height: 100px;
 }
 .navbar {
   display: block;
@@ -682,7 +682,8 @@ nav ul li a:hover {
   margin-top: -50px;
   display: flex;
   justify-content: center;
-  }
+
+}
  
 #projects h1 {
   display: none;
