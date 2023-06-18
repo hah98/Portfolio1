@@ -1283,4 +1283,15 @@ h3,h4 {
   margin-top: 120px;
   margin-left: -200px;
 }
+}  
+
+@media screen and (max-width: 600px) {
+  .cards {
+    justify-content: center;
+  }
+
+  .project1 {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
 }
